@@ -1,7 +1,6 @@
 #lista de opciones o datos
 lista_de_opciones = [
     "Calculadora",
-    "Opción 1",
     "Opción 2",
     "Opción 3",
     "Opción 4",
@@ -10,7 +9,8 @@ lista_de_opciones = [
     "Opción 7",
     "Opción 8",
     "Opción 9",
-    "Opción 10"
+    "Salir"
+    
 ]
 
 #funciones

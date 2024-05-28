@@ -7,14 +7,17 @@ from calculadora import programa_calculadora
 #limpiar terminal inicio del programa
 os.system("cls")
 
-cargar_opciones()
+while True:
+    cargar_opciones()
 #creando una variable que muestre la obsion que el usuario muestre
 
-try: #SI NO HAY ERRORES
-    respuesta = input("[?]")
+    try: #SI NO HAY ERRORES
+        respuesta = input("[?]")
 
-    if respuesta == "1":
-        programa_calculadora()
+        if respuesta == "1":
+            programa_calculadora()
+        elif respuesta == "10": 
+            break
 
-except:#SI HAY ERROR
-    print("valor nulo")
+    except:#SI HAY ERROR
+        print("valor nulo")

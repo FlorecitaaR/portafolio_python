@@ -36,6 +36,24 @@ def programa_calculadora():
     print("[1] Multiplicar  [2] Dividir")
     print("[3] Sumar        [4] Restar\n")
 
-    print("calculadora lista")
+
+    opcion = input("[?]:   ")
+    num1 = int(input("[Num1]:   "))
+    num2 = int(input("[Num2]:   "))
+
+
+    if opcion == '1':
+        print("[R *]:", multiplicar(num1,num2))
+    elif opcion == '2':
+        print("[R /]:", dividir(num1,num2))
+    elif opcion == '3':
+        print("[R +]:", sumar(num1,num2))
+    elif opcion == '4':
+        print("[R -]:", restar(num1,num2))
+
+    print("-----------------------------------")
+
+
+    
 
 
