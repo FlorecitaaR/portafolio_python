@@ -1,3 +1,4 @@
+from lista_opciones import *
 #@sumar funcion que requiere de los parametros
 #@ return retorma el resultado de la operación
 # a+b
@@ -32,12 +33,13 @@ print(resultado)
 #Programa calculadora
 #--------------------
 def programa_calculadora():
-    print("[1]------------------------")
-    print("[1] Multiplicar  [2] Dividir")
-    print("[3] Sumar        [4] Restar\n")
 
+
+    opciones_calculadora = [ "Multiplicar", "Dividir", "Sumar", "Restar"]
+    cargar_opciones(opciones_calculadora)
 
     opcion = input("[?]:   ")
+
     num1 = int(input("[Num1]:   "))
     num2 = int(input("[Num2]:   "))
 
@@ -51,7 +53,7 @@ def programa_calculadora():
     elif opcion == '4':
         print("[R -]:", restar(num1,num2))
 
-    print("-----------------------------------")
+    imprimirLinea()
 
 
     
