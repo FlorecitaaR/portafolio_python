@@ -1,0 +1,11 @@
+.sobre_mi {
+    padding: 2rem 0;
+    grid-column: 1/5;
+}
+.saludo {
+    font-size: 3rem;
+    font-weight: 600;
+}
+.descripcion {
+    font-size: 1.4rem;
+}

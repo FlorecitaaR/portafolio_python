@@ -1,31 +1,34 @@
-.item {
-
-    grid-column:  1/5;
+.certificados {
+    grid-column: 1.5;
     margin-top: 2rem;
     background-color: rgb(242, 242, 242);
 }
-.item {
-    width: 100%;
-}
 
+.item {
+    width: 100;
+    margin-top: 1rem;
+}
 .item-img {
     width: 100%;
-    height: 20rem;
-    
+    margin-top: 1rem;
 }
+
 .item-img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 .informacion {
-
     padding: 1rem;
-    font-size: 1.3rem;
-
+    font-size: 1.1rem;
+    
     display: flex;
     justify-content: space-between;
 }
+.informacion p{
+    font-size: 1.6rem;
+}
+
 .ico {
     font-size: 2rem;
 }
